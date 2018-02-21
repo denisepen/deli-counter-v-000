@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = []
 
-def line(customer)
+def line(katz_deli)
 
   # line method shows everyone their current place in line
   if katz_deli.length == 0
@@ -13,6 +13,7 @@ end
 
 
     def take_a_number(katz_deli, person)
+        katz_deli = katz_deli << customer
 
     end
 
