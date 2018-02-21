@@ -3,19 +3,21 @@ katz_deli = []
 
 def line
   # line method shows everyone their current place in line
-  if katz_deli.length == 0 
+  if katz_deli.length == 0
     "The line is currently empty."
-  else 
+  else
     XXXXX
+  end
 end
+
 
     def take_a_number(katz_deli, person)
 
-      
+
 
     end
 
- 
+
 
 # function takeANumber(katzDeliLine, newPerson) {
 #   katzDeliLine.push(newPerson);
