@@ -21,8 +21,8 @@ end
       if katz_deli.length == 0
         puts "There is nobody waiting to be served!"
       else katz_deli.each do
-        next_ustomer = katz_deli.unshift
-        puts "Currently serving #{katz_deli.unshift}."
+        next_customer = katz_deli.unshift
+        puts "Currently serving #{next_customer}."
       end
     end
   end
