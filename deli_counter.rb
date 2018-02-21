@@ -2,10 +2,11 @@
 katz_deli = []
 
 def line(katz_deli)
-  katz_deli = katz_deli << new_cust
+  
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
+    katz_deli = katz_deli << new_cust
 katz_deli.each_with_index do |person, i|
   puts "The line is currently: #{i + 1}. #{person}"
 end
