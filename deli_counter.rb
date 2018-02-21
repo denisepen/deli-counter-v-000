@@ -10,8 +10,8 @@ katz_deli.each_with_index {|person| puts "The line is currently: #{index + 1} + 
   end
 end
 
-    def take_a_number(katz_deli, customer)
-        katz_deli = katz_deli << customer
+    def take_a_number(katz_deli, new_cust)
+        katz_deli = katz_deli << new_cust
 
     end
 
