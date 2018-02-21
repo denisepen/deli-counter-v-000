@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = []
 
-def line
+def line(customer)
   # line method shows everyone their current place in line
   if katz_deli.length == 0
     "The line is currently empty."
