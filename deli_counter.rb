@@ -20,12 +20,12 @@ end
     def now_serving
       if katz_deli.length == 0
         puts "There is nobody waiting to be served!"
-      else katz_deli.each do 
+      else katz_deli.each do
         puts "Currently serving #{katz_deli.shift}."}
       end
     end
 
-    end
+  
 
 
 # function takeANumber(katzDeliLine, newPerson) {
