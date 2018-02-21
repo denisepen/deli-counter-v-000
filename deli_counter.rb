@@ -6,7 +6,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-katz_deli.each_with_index {|person| puts "The line is currently: #{index + 1} + #{person}"}
+katz_deli.each {|person| puts "The line is currently: #{katz_deli.index} + #{person}"}
   end
 end
 
@@ -19,8 +19,7 @@ end
       if katz_deli.length == 0
         puts "There is nobody waiting to be served!"
       else
-        # next_customer = katz_deli.unshift
-        puts "Currently serving #{katz_deli.shift}."
+      puts "Currently serving #{katz_deli.shift}."
       end
     end
 
