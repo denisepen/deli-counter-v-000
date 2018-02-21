@@ -12,7 +12,7 @@ end
 
     def take_a_number(katz_deli, new_cust)
         katz_deli = katz_deli << new_cust
-        puts "Welcome, #{new_cust}. You are number #{katz_deli.length - 1} in line."
+        puts "Welcome, #{new_cust}. You are number #{katz_deli.length} in line."
     end
 
     def now_serving(katz_deli)
