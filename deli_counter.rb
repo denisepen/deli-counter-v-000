@@ -2,11 +2,12 @@
 katz_deli = []
 
 def line(customer)
+  katz_deli = katz_deli << customer
   # line method shows everyone their current place in line
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-puts katz_deli = katz_deli << customer
+katz_deli.each_with_index {|person| puts "The line is currently: #{index + 1} + #{person}"}
   end
 end
 
